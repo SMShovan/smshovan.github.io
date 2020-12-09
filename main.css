@@ -12,3 +12,11 @@ table {
     width: 90%;
     
   }
+
+  #header-left{
+    width: 600px;
+    float: left
+  }
+  #header-right{
+    margin-left: 101px;
+  }
