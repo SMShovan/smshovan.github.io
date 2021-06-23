@@ -24,6 +24,15 @@ section{
     background-color: white;
     width: 800px;
     box-shadow: 0 400px 48px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: .5s;
+    margin-bottom: 20px;
+    border-radius: .5rem;
+    
+  }
+  section:hover{
+     transform: scale(1.05);
+      background-color: rgba(0, 0, 0, 0);
+      border-radius: .5rem;
   }
 
   body {background-color: rgb(243, 243, 243);}
@@ -65,7 +74,7 @@ section{
 
 .topnav {
   overflow: hidden;
-  background-color: white;
+  background-color: background-color: rgba(0, 0, 0, 0);;
 }
 
 .topnav a {
@@ -83,6 +92,7 @@ section{
 }
 
 .topnav a.active {
-  background-color: gray;
+  background-color: rgba(0, 0, 0, .9);
+  border-radius: .5rem;
   color: white;
   
