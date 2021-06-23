@@ -28,14 +28,24 @@ section{
     margin-bottom: 20px;
     border-radius: .5rem;
     
+      
+    
   }
+  
   section:hover{
      transform: scale(1.05);
       background-color: rgba(0, 0, 0, 0);
       border-radius: .5rem;
   }
 
-  body {background-color: rgb(243, 243, 243);}
+  body {
+    background-color: rgb(243, 243, 243);
+    perspective: 1000px;
+  }
+
+
+  
+  
 
   #header-left{
     width: 500px;
