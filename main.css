@@ -126,7 +126,8 @@ section{
 
 .topnav {
   overflow: hidden;
-  background-color: background-color: rgba(0, 0, 0, 0);;
+  background-color: background-color: rgba(0, 0, 0, 0);
+  
 }
 
 .topnav a {
@@ -136,11 +137,13 @@ section{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  margin: 5px;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: rgba(0, 0, 0, .2);
   color: black;
+  border-radius: .5rem;
 }
 
 .topnav a.active {
